@@ -1,1 +1,487 @@
+/*Oni H, Harpreet K, Andrew P, Josh E, */
+.skip {
+  position: absolute;
+  left: -999px;
+}
 
+.skip:focus {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  padding: 0.5%;
+  top: auto;
+  left: auto;
+  right: 1px;
+  z-index: 1;
+}
+
+nav {
+  position: fixed;
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+}
+
+.toppage {
+  display: hidden;
+}
+
+nav li {
+  text-align: center;
+}
+
+nav li a:hover {
+  background-color: #fff;
+}
+
+
+
+#cartIcon {
+  top: 0%;
+  height: 60px;
+  margin-bottom: 0%;
+}
+
+main {
+  padding: 2%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+/*Carousel Style Rules*/
+.caroimg {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.carosel-item figcaption {
+  text-align: center;
+}
+
+.carouselcontainer {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.carouselcontainer2 {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+
+figcaption {
+  font-size: 20px;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: bold;
+  padding: 0.5%;
+  text-align: centers;
+  border: 4px outset #32a432;
+}
+
+.caroHead {
+  margin-top: 20px;
+  margin: 0 auto;
+  font-family: "JetBrains Mono", monospace;
+  text-align: center;
+  background-color: #feb434;
+  border: 4px solid #000;
+  color: #000000;
+  -webkit-text-stroke: 1px #000000;
+  width: 50%;
+  height: 80px;
+}
+
+.caroHead1 {
+  font-family: "JetBrains Mono", monospace;
+  padding-top: 1%;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  background-color: #feb434;
+  border: 4px solid #000;
+  color: #000000;
+  width: 60%;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.grill {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/grillhome.jpg);
+  /*Photo by <a href="https://unsplash.com/@firedorange717?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joshua Kantarges</a> on <a href="https://unsplash.com/photos/burger-patty-being-cooked-wO4CyWnIzz4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Is the credit for the homepage jumbo img*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: 35vh;
+}
+
+.headImg {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/background2.jpg);
+  /*Photo by <a href="https://unsplash.com/@thomascpark?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Thomas Park</a> on <a href="https://unsplash.com/photos/green-and-white-stripe-pathway-fDmpxdV69eA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: 100vh;
+}
+
+.footer {
+  background-color: #545454;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30vh;
+}
+
+.title {
+  font-family: "Rubik Mono One", monospace;
+  -webkit-text-stroke: 1px #ffffff;
+  font-size: 100px;
+  letter-spacing: 4.5px;
+  text-shadow: 2px 2px 5px white;
+  color: #288028;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.subtitle {
+  font-size: 30px;
+  text-shadow: 2px 2px 5px white;
+  letter-spacing: 3.5px;
+  color: #006400;
+  text-align: center;
+  font-family: "Rubik Mono One", monospace;
+  font-weight: bold;
+  -webkit-text-stroke: .5px #ffffff;
+}
+
+.container{
+  margin: 0 auto;
+}
+
+.finalpage {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.reservation{
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 15%;
+}
+
+#indexBox {
+  position: relative;
+  width: 100%;
+}
+
+#indexBox img {
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+}
+
+.mobileImg {
+  display: none;
+}
+
+.creatorpage p {
+  font-size: 1.5em;
+  text-align: center;
+  font-family: "Times New Roman", sans-serif;
+}
+
+span {
+  font-weight: bold;
+  color: #0f7b16;
+}
+
+#indexBox .btn {
+  position: absolute;
+  top: 15%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 30px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: "Rubik Mono One", monospace;
+}
+
+#indexBox .btn:hover {
+  background-color: white;
+}
+
+.menu img {
+  width: 200px;
+  height: 200px;
+}
+
+.form-btn {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+
+section {
+  margin-top: 4%;
+  padding: 3%;
+  border: 4px solid #000;
+}
+
+article {
+  margin-top: 1%;
+  padding: 2%;
+}
+
+article h5 {
+  text-align: left;
+}
+
+article ul {
+  text-align: left;
+}
+
+article img {
+  height: 30px;
+  width: 30px;
+}
+
+.menuarticle {
+  padding: 1em;
+}
+
+.menuimg {
+  width: 400px;
+  height: 300px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+}
+
+/* Contact Page Style Rules */
+#contact {
+  text-align: center;
+  font-size: 1em;
+  font-family: "JetBrains Mono", monospace;
+}
+
+#form {
+  margin-top: 2%;
+  background-color: #006400;
+  padding: 2%;
+  font-family: "JetBrains Mono", monospace;
+  text-align: center;
+  color: white;
+}
+
+#form h2 {
+  text-align: center;
+}
+
+#contactForm {
+  font-weight: bold;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: "Rubik Mono One", monospace;
+}
+
+#form h3 {
+  font-size: 2em;
+
+}
+
+.map {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid #000;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px black;
+}
+
+.popular {
+  font-weight: 500;
+  margin: 2%;
+
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.container {
+  min-height: 100%;
+  padding-bottom: 30px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+
+}
+
+fieldset,
+input,
+select,
+textarea {
+  margin-bottom: 2%;
+}
+
+.center {
+  text-align: center;
+}
+
+fieldset legend {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+label {
+  display: block;
+  padding-top: 3%;
+}
+
+form #submit {
+  margin: 0 auto;
+  border: none;
+  display: block;
+  padding: 2%;
+  background-color: #1c1b1b;
+  font-size: 1em;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.mobilemenu {
+  display: none;
+}
+
+.finalpage {
+  font-family: "Rubik Mono One", monospace;
+}
+
+/* Mobile styling */
+@media only screen and (max-width: 600px) {
+  .title {
+    -webkit-text-stroke: 1px #ffffff;
+    text-shadow: 2px 2px 3px white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1.5em;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    -webkit-text-stroke: .25px #ffffff;
+    text-shadow: 2px 2px 1.5px white;
+  }
+
+  body {
+    background-color: white;
+    width: 100%;
+  }
+
+  #indexBox .btn {
+    font-size: 12px;
+    top: 20%;
+    left: 85%;
+  }
+
+  .tablet-desktop {
+    display: none;
+  }
+
+  .mobileImg {
+    display: block;
+  }
+
+
+  footer {
+    display: none;
+  }
+
+  .caroimg {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+  }
+
+  .carouselcontainer {
+    width: 180px;
+    height: 180px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: solid;
+  }
+
+  figcaption {
+    font-size: 15px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    caption-side: bottom;
+    border: thin black solid;
+  }
+
+  .menuimg {
+    width: 150px;
+    height: 120px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+  }
+
+  .mobilemenu {
+    display: block;
+    width: 100%;
+  }
+
+  .menuarticle {
+    display: none;
+  }
+
+
+  #form h3 {
+    font-size: 1.5em;
+    text-decoration: underline;
+  }
+
+  /*Tablet viewPort*/
+
+  @media screen and (min-width: 630px),
+  print {}
+
+
+
+}
